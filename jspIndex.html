@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/all.min.css">
+  <title>jsp ajax</title>
+</head>
+
+<body>
+
+  <div class="wrap">
+    <h2>#45 - 請使用 JavaScript 語法，操控點擊後，能夠轉址到對應網站</h2>
+    <button class="btn btn_google" id="btnGoogle" title="Google">Google</button>
+    <button class="btn btn_yahoo" id="btnYahoo" title="Yahoo">Yahoo</button>
+
+    <h2>#46-1 - 以下有兩顆按鈕，是部落格推薦連結，請抓取 data-id 的值後進行轉址：</h2>
+    <p>1. 點擊 Tom 時，網址為 https://www.hexschool.com/?recommend=tom</p>
+    <p>2. 點擊 John 時，網址為 https://www.hexschool.com/?recommend=John</p>
+
+    <button class="google jq-google" title="Tom 推薦六角學院" data-id="tom">Tom 推薦六角學院</button>
+    <button class="yahoo jq-yahoo" title="John 推薦六角學院" data-id="John">John 推薦六角學院</button>
+
+    <h2>#46-2 - 如果網址規則是https://www.hexschool.com/?recommend="值"，該如何取出 recommend 的值？</h2>
+    <p>例如 https://www.hexschool.com/?recommend=tom，可以透過 JS，精準取出 tom 的值？請提供 JS 寫法。</p>
+
+    <button id="singleParams">單一網址參數</button>
+    <button id="multiParams">多個網址參數</button>
+  </div>
+
+
+
+
+
+  <script src="js/all.js"></script>
+</body>
+
+</html>
